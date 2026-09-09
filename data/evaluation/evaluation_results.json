@@ -1,0 +1,72 @@
+[
+    {
+        "question": "What do you understand by OOP?",
+        "ground_truth": "OOP stands for object-oriented programming. It is a programming paradigm that",
+        "generated_answer": "OOP stands for object-oriented programming. It is a programming paradigm that revolves around the object rather than function and procedure. In other words, it is an approach for developing applications that emphasize on objects. An object is a real word entity that contains data and code. It allows binding data and code together.",
+        "expected_chunk_id": 0,
+        "metrics": {
+            "answer_relevancy": 1.0,
+            "answer_correctness": 0.449,
+            "context_precision": 0.0833,
+            "context_recall": 1.0,
+            "hit_rate": 1.0
+        },
+        "overall_score": 0.7065
+    },
+    {
+        "question": "What are seven widely used OOP languages?",
+        "ground_truth": "Java, C++, Python, Ruby, PHP, C#, and Objective-C are some of the widely used OOP languages.",
+        "generated_answer": "There are seven widely used OOP languages:\n\n1. Python\n2. Java\n3. Go\n4. Dart\n5. C++\n6. C#\n7. Ruby",
+        "expected_chunk_id": 1,
+        "metrics": {
+            "answer_relevancy": 0.6,
+            "answer_correctness": 0.5143,
+            "context_precision": 0.1,
+            "context_recall": 1.0,
+            "hit_rate": 1.0
+        },
+        "overall_score": 0.6429
+    },
+    {
+        "question": "What are the four main features of OOPs?",
+        "ground_truth": "The OOP has the following four features: inheritance, encapsulation, polymorphism, and data abstraction.",
+        "generated_answer": "The four main features of OOPs are:\n\no Inheritance\no Encapsulation\no Polymorphism\no Data Abstraction",
+        "expected_chunk_id": 2,
+        "metrics": {
+            "answer_relevancy": 0.6667,
+            "answer_correctness": 0.64,
+            "context_precision": 0.1,
+            "context_recall": 1.0,
+            "hit_rate": 1.0
+        },
+        "overall_score": 0.6813
+    },
+    {
+        "question": "Why is OOP so popular?",
+        "ground_truth": "OOPs, programming paradigm is considered as a better style of programming. Not only it helps in writing a complex piece of code easily, but it also allows users to handle and maintain them easily as well. Not only that, the main pillar of OOPs - Data Abstraction, Encapsulation, Inheritance, and Polymorphism, makes it easy for programmers to solve complex scenarios. As a result of these, OOPs is so popular.",
+        "generated_answer": "OOPs, programming paradigm is considered as a better style of programming. Not only it helps in writing a complex piece of code easily, but it also allows users to handle and maintain them easily as well. Not only that, the main pillar of OOPs - Data Abstraction, Encapsulation, Inheritance, and Polymorphism, makes it easy for programmers to solve complex scenarios. As a result of these, OOPs is so popular.",
+        "expected_chunk_id": 3,
+        "metrics": {
+            "answer_relevancy": 1.0,
+            "answer_correctness": 1.0,
+            "context_precision": 0.1,
+            "context_recall": 1.0,
+            "hit_rate": 1.0
+        },
+        "overall_score": 0.82
+    },
+    {
+        "question": "What are the limitations of OOPs?",
+        "ground_truth": "Requires intensive testing processes. Solving problems takes more time as compared to Procedure Oriented Programming. The size of the programs created using this approach may become larger than the programs written using the procedure-oriented programming approach. Software developed using this approach requires a substantial amount of pre-work and planning. OOP code is difficult to understand if you do not have the corresponding class documentation. In certain scenarios, these programs can consume a large amount of memory. Not suitable for small problems. Takes more time to solve problems.",
+        "generated_answer": "The limitations of OOPs include:\n\no Requires intensive testing processes.\no Solving problems takes more time as compared to Procedure Oriented Programming.\no The size of the programs created using this approach may become larger than the programs written using the procedure-oriented programming approach.\no Software developed using this approach requires a substantial amount of pre-work and planning.\no OOP code is difficult to understand if you do not have the corresponding class documentation.\no In certain scenarios, these programs can consume a large amount of memory.\no Not suitable for small problems.\no Takes more time to solve problems.",
+        "expected_chunk_id": 4,
+        "metrics": {
+            "answer_relevancy": 1.0,
+            "answer_correctness": 0.9688,
+            "context_precision": 0.1,
+            "context_recall": 1.0,
+            "hit_rate": 1.0
+        },
+        "overall_score": 0.8138
+    }
+]

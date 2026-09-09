@@ -1,0 +1,36 @@
+# Environment
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pytest
+.pytest_cache/
+
+# Logs
+logs/*.log
+
+# Uploaded files
+data/uploaded_documents/*
+
+!data/uploaded_documents/.gitkeep
+
+# Vector store
+data/vector_store/*
+
+!data/vector_store/.gitkeep
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
